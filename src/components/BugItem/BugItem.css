@@ -1,0 +1,42 @@
+.bug-container {
+  padding: 5px;
+  margin: 15px;
+  display: flex;
+  direction: column;
+  border: 2px groove #eee;
+  background: #333;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.bug-details {
+}
+.bug-container:hover {
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+}
+.bug-container div {
+  padding: 5px;
+  /* flex: 0 0 20%; */
+}
+
+.bug-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.break {
+  /* flex-basis: 100%; */
+  height: 0;
+  width: 100% !important;
+}
+
+.table tr td {
+  text-align: center;
+}
+.bug-cell {
+  /* border-right: 2px solid grey; */
+  text-align: center;
+  padding-right: 10px;
+}
